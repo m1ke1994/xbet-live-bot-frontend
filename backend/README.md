@@ -63,3 +63,5 @@ Swagger UI: <http://127.0.0.1:8000/docs>
 Playwright запускается строго с `headless=False` и `slow_mo`, поэтому Chromium показывается на той машине, где физически запущен backend. Текущий сценарий рассчитан на локальный запуск backend на Windows. Docker на этом этапе не используется, поскольку он усложнил бы вывод GUI-окна.
 
 Следующий этап после стабильной авторизации — навигация Live → Киберспорт → поиск активной команды. В текущую реализацию он намеренно не входит.
+#cd C:\Users\Alex\Desktop\botfootbal\xbet-live-bot-frontend\backend
+.\.venv\Scripts\python.exe -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload команда для запуска
